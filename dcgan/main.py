@@ -43,7 +43,7 @@ flags.DEFINE_float("blur_input", None, "Sigma for blurring input images [None]")
 flags.DEFINE_integer("gauss_trunc", 2, "Defines generated kernel size for gaussian filtering as 2*trunc+1 [2]")
 flags.DEFINE_bool("blur_fade", False, "If true, the gaussian blur on images slowly fades during training [False]")
 flags.DEFINE_bool("ipython", False, "Switches to interactive command line")
-flags.DEFINE_integer("y_dim", None, "number of labels [y_dim]")
+flags.DEFINE_integer("y_dim", 0, "number of labels [y_dim]")
 FLAGS = flags.FLAGS
 
 
