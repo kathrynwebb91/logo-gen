@@ -21,7 +21,7 @@ flags.DEFINE_string("dataset", "LLD", "The name of dataset (used to name folders
 flags.DEFINE_string("input_fname_pattern", "*data*.pkl", "Glob pattern of filename of input images [*]")
 flags.DEFINE_string("input_type", 'pickle', 'Input type (file/pickle) [pickle]')
 flags.DEFINE_string("checkpoint_dir", "checkpoint", "Directory name to save the checkpoints [checkpoint]")
-flags.DEFINE_string("sample_dir", "None", "Directory name to save the image samples [samples]")
+flags.DEFINE_string("sample_dir", "Samples_KW", "Directory name to save the image samples [samples]")
 flags.DEFINE_string("data_dir", "/home/sagea/scratch/data/icons", "Directory path with favicon data")
 flags.DEFINE_boolean("is_train", False, "True for training, False for testing [False]")
 flags.DEFINE_boolean("is_crop", False, "True for training, False for testing [False]")
